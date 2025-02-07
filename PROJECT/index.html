@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page 1</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-container">
+    <div class="page" style="background-image: url('images/background.jpg');">
+      <div class="content">
+        <h1>Want to hear a Story click the button below</h1>
+        <div id="ishaa-image-container">
+          <img src="images/ISHAA.jpeg" alt="Ishaa" />
+          <div class="text-overlay">
+            <h1>Isn't She is Beautiful?</h1>
+          </div>
+        </div>
+        <button id="continueButton">WANT TO KNOW ABOUT ISHAA</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("continueButton").addEventListener("click", function() {
+      window.location.href = "page2.html";  // Navigate to the second page
+    });
+  </script>
+</body>
+</html>
